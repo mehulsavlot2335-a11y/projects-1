@@ -1,0 +1,156 @@
+/* Base Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1e293b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #f8fafc;
+}
+
+/* Main Container */
+.game-container {
+    background-color: #0f172a;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    color: #38bdf8;
+    letter-spacing: 1px;
+}
+
+/* Scoreboard */
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e293b;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #334155;
+}
+
+.score-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f8fafc;
+}
+
+/* Matchup Display */
+.matchup-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 80px;
+}
+
+.choice-display {
+    font-size: 3rem;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e293b;
+    border-radius: 50%;
+    border: 2px solid #334155;
+    transition: transform 0.2s;
+}
+
+.vs-text {
+    font-weight: bold;
+    color: #64748b;
+    font-size: 1.2rem;
+}
+
+/* Result Message */
+.result-message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    min-height: 36px;
+    color: #f1f5f9;
+}
+
+.win-text { color: #4ade80; }  /* Green */
+.lose-text { color: #f87171; } /* Red */
+.tie-text { color: #94a3b8; }  /* Gray */
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.choice-btn {
+    flex: 1;
+    background-color: #1e293b;
+    border: 2px solid #38bdf8;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.choice-btn:hover {
+    background-color: #38bdf8;
+    color: #0f172a;
+    transform: translateY(-3px);
+}
+
+.choice-btn:active {
+    transform: translateY(0);
+}
+
+/* Restart Button */
+.restart-btn {
+    width: 100%;
+    background-color: transparent;
+    color: #94a3b8;
+    border: 2px solid #475569;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.restart-btn:hover {
+    background-color: #475569;
+    color: white;
+}

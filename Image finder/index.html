@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search-container">
+        <h1 class="title">Image Search</h1>
+        
+        <form id="search-form" class="search-form">
+            <input type="text" id="search-input" class="search-input" placeholder="Search for images (e.g., mountains, tech)..." required>
+            <button type="submit" id="search-btn" class="search-btn">Search</button>
+        </form>
+
+        <div id="error-message" class="error-message hidden"></div>
+
+        <div id="gallery-grid" class="gallery-grid"></div>
+
+        <div id="status-message" class="status-message hidden"></div>
+
+        <div id="load-more-wrapper" class="load-more-wrapper hidden">
+            <button id="load-more-btn" class="load-more-btn">Load More</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
