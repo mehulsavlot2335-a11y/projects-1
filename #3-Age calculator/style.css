@@ -1,0 +1,87 @@
+/* Body styling */
+body {
+
+    /* Font style */
+    font-family: Arial, sans-serif;
+
+    /* Background color */
+    background-color: #f0f0f0;
+
+    /* Center content horizontally */
+    display: flex;
+
+    /* Center content vertically */
+    justify-content: center;
+
+    /* Vertical alignment */
+    align-items: center;
+
+    /* Full screen height */
+    height: 100vh;
+
+}
+
+/* Main container */
+.container {
+
+    /* White background */
+    background-color: white;
+
+    /* Space inside box */
+    padding: 30px;
+
+    /* Rounded corners */
+    border-radius: 10px;
+
+    /* Center text */
+    text-align: center;
+
+    /* Shadow effect */
+    box-shadow: 0 0 10px gray;
+
+}
+
+/* Input field */
+input {
+
+    /* Space around input */
+    margin: 10px;
+
+    /* Inner spacing */
+    padding: 10px;
+
+}
+
+/* Button styling */
+button {
+
+    /* Inner spacing */
+    padding: 10px 20px;
+
+    /* Blue background */
+    background-color: blue;
+
+    /* Text color */
+    color: white;
+
+    /* Remove border */
+    border: none;
+
+    /* Rounded corners */
+    border-radius: 5px;
+
+    /* Mouse pointer */
+    cursor: pointer;
+
+}
+
+/* Result styling */
+#result {
+
+    /* Space above result */
+    margin-top: 20px;
+
+    /* Bigger text */
+    font-size: 20px;
+
+}
